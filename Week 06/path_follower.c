@@ -2,21 +2,14 @@
 #include <time.h>
 
 AnalogIn sensor0(A0);
-
 AnalogIn sensor1(A1);
-
 AnalogIn sensor2(A2);
-
 AnalogIn sensor3(A3);
-
 AnalogIn sensor4(A4);
 
 PwmOut PWM11(D9);
-
 PwmOut PWM12(PA_11_ALT0);
-
 PwmOut PWM21(D11);
-
 PwmOut PWM22(D12);
 
 int stopCount = 0;
@@ -27,20 +20,6 @@ void forward() {
     PWM21.write(0.22f);
     PWM22.write(0.0f);
 }
-
-//void left() {
-//    PWM11.write(0.18);
-//    PWM12.write(0.0f);
-//    PWM21.write(0.05f);
-//    PWM22.write(0.0f); //fast
-//}
-//
-//void right() {
-//    PWM11.write(0.05f);
-//    PWM12.write(0.0f); // fast
-//    PWM21.write(0.18f);
-//    PWM22.write(0.0f);
-//}
 
 void left() {
     PWM11.write(0.18f);
