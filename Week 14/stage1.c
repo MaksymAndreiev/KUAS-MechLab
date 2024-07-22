@@ -17,7 +17,7 @@ int stopCount = 0;
 void forward() {
     PWM11.write(0.0f);
     PWM12.write(0.28f);
-    PWM21.write(0.28f);
+    PWM21.write(0.34f);
     PWM22.write(0.0f);
 }
 
