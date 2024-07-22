@@ -13,3 +13,8 @@ This is STM32F303K8T6 microcontroller based board, which has 64KB Flash memory, 
 <img src="https://akizukidenshi.com/img/goods/L/110172.jpg" width="50%" height="50%"> 
 
 Programming was done using Keil Studio by ARM.
+
+The final goal was to develop 2 robots:
+1. Line Follower Robot
+2. Line Following Robot with Obstacle Avoidance
+
